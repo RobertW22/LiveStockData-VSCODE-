@@ -31,21 +31,21 @@ elif(choice == "5"):
     print(get_top_crypto())
 elif(choice == "6"):
     print("Please enter the stock ticker symbol you would like to check: ")
-    ticker = input()
+    
 elif(choice == "7"):
     print("Goodbye :)")
     exit()
         
-    
 
 
 
 if(choice == 6):
     print("Please enter the stock ticker symbol you would like to check \n")
-    #Get ticker symbol
     x = input()
-    print("What data would you like to see from: " + x)
-
+    print("What data would you like to see from: " + x )
+    
+    
+    
     #List of options
     print("Get Live Price") #print(get_live_price(x))
     print("Get price data / volume") #print(get_data(x))
@@ -53,8 +53,6 @@ if(choice == 6):
     print("2. Dividends") #yf.Ticker(x).dividends
     print("3. Earnings") #yf.Ticker(x).earnings
     print("4. Financials") #yf.Ticker(x).financials
-
-
 
 
 
